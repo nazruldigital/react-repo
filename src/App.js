@@ -1,10 +1,12 @@
 import "./App.css";
-import Device from "./Components/Device/Device";
+import Header from "./components/Header/Header";
+import Shop from "./components/Shop/Shop";
 
 function App() {
   return (
-    <div className="App">
-      <Device name="Iphone 13 pro max"></Device>
+    <div>
+      <Header></Header>
+      <Shop></Shop>
     </div>
   );
 }
